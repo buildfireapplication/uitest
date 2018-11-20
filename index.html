@@ -10,9 +10,11 @@
 
 </head>
 <body>
-    <h1>Task List</h1>
-    <button onclick="addTask({title:'My New Task!',description:'This is my new task',img:'https://picsum.photos/1600/900?v99'})">Add Task</button>
-    <div id="taskContainer">
+    <div class="jumbotron">
+        <h1 class="display-4">Task List</h1>
+        <button class="btn btn-primary" onclick="addTask({title:'My New Task!',description:'This is my new task',img:'https://picsum.photos/1600/900?v99'})">Add Task</button>
+    </div>
+    <div id="taskContainer" class="list-group">
 
     </div>
     <script src="js/taskList.js"></script>
